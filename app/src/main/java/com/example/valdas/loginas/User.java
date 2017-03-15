@@ -120,6 +120,7 @@ public class User extends AppCompatActivity {
                 naujas[0] = initial[0];
                 naujas[1] = initial[1];
 
+
                 Intent intent = new Intent(User.this, Login.class);
                 intent.putExtra("pressed[0]", 0);
                 intent.putExtra("name", naujas);

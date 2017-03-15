@@ -62,6 +62,7 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Registered successfully, please Log-in", Toast.LENGTH_SHORT).show();
                     pressed[0] = 0;
 
+                    btLogin.setText("LOGIN");
                     etName.getText().clear();
                     etPassword.getText().clear();
                 }else {
